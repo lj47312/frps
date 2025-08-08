@@ -47,10 +47,10 @@ wget https://ghfast.top/https://raw.githubusercontent.com/lj47312/frps/master/fr
 
 #### 修改 frps_linux_install.sh 脚本
 `FRP_VERSION=0.63.0` 可根据原版项目更新自行修改为最新版本.  
-`REPO=stilleshan/frps` 由于 **fork** 到你自己的仓库,需修改`stilleshan`为你的 GitHub 账号ID.
+`REPO=lj47312/frps` 由于 **fork** 到你自己的仓库,需修改`lj47312`为你的 GitHub 账号ID.
 
 #### 执行一键脚本
-修改以下脚本链接中的`stilleshan`为你的 GitHub 账号 ID 后,执行即可.
+修改以下脚本链接中的`lj47312`为你的 GitHub 账号 ID 后,执行即可.
 ```shell
 wget https://raw.githubusercontent.com/lj47312/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 ```
