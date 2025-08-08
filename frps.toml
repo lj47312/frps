@@ -1,10 +1,15 @@
+# 必须包含IPv6的文字地址或主机名。
+# 方括号内，如 "[::1]:80", "[ipv6-host]:http" or "[ipv6-host%zone]:80"
 bindAddr = "0.0.0.0"
-bindPort = 7000
-#kcpBindPort = 7000
-quicBindPort = 7000
+# UDP穿透服务器的服务端口定义
+bindPort = 44444
+# KCP用来给UDP端口加速的服务端口，可以和上面的UDP服务端口bind_port相同
+# 如果没有设置KCP加速，请注释此行
+kcpBindPort = 44444
+quicBindPort = 44444
 
-vhostHTTPPort = 80
-vhostHTTPSPort = 443
+vhostHTTPPort = 47301
+vhostHTTPSPort = 47302
 
 transport.maxPoolCount = 2000
 transport.tcpMux = true
@@ -13,9 +18,9 @@ transport.tcpKeepalive = 7200
 transport.tls.force = false
 
 webServer.addr = "0.0.0.0"
-webServer.port = 7500
-webServer.user = "admin"
-webServer.password = "admin"
+webServer.port = 22222
+webServer.user = "lj47312"
+webServer.password = "150082588"
 webServer.pprofEnable = false
 
 log.to = "./frps.log"
@@ -24,7 +29,7 @@ log.maxDays = 3
 log.disablePrintColor = false
 
 auth.method = "token"
-auth.token = "12345678"
+auth.token = "1122334455667788"
 
 allowPorts = [
   { start = 10001, end = 50000 }
