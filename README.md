@@ -2,8 +2,8 @@
 ## 项目简介
 基于 [fatedier/frp](https://github.com/fatedier/frp) 原版 frp 内网穿透服务端 frps 的一键安装卸载脚本和 docker 镜像.支持 Linux 服务器和 docker 等多种环境安装部署.
 
-- GitHub [stilleshan/frps](https://github.com/stilleshan/frps)
-- Docker [stilleshan/frps](https://hub.docker.com/r/stilleshan/frps)
+- GitHub [stilleshan/frps](https://github.com/lj47312/frps)
+- Docker [stilleshan/frps](https://hub.docker.com/r/lj47312/frps)
 > *docker image support for X86 and ARM*
 
 ## 更新
@@ -18,9 +18,9 @@
 ### 一键脚本(先执行脚本,在自行修改 frps.toml 文件.)
 安装
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+wget https://raw.githubusercontent.com/lj47312/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 # 以下为国内镜像
-wget https://ghfast.top/https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+wget https://ghfast.top/https://raw.githubusercontent.com/lj47312/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 ```
 
 使用
